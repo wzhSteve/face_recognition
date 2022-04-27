@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="facerecognizer_gui">
+    <file>Resources/back.jpg</file>
+    <file>Resources/cameraback.jpg</file>
+    <file>Resources/cameraback.jpg</file>
+    <file>Resources/cartoon.gif</file>
+    <file>Resources/back.jpg</file>
+    <file>Resources/photoback.jpg</file>
+    <file>Resources/cameraback.jpg</file>
+    <file>Resources/IMG_0152.PNG</file>
+    <file>Resources/IMG_0171.JPG</file>
+    <file>Resources/camera.jpg</file>
+    <file>Resources/open_camera.jpg</file>
+    <file>Resources/background.jpg</file>
+  </qresource>
+</RCC>
