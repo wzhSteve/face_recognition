@@ -1,0 +1,8 @@
+﻿  uic facerecognizer_gui.ui
+  facerecognizer_gui.cpp
+  faction.cpp
+  main.cpp
+  putText.cpp
+  qrc_facerecognizer_gui.cpp
+  moc_facerecognizer_gui.cpp
+  facerecognizer_gui.vcxproj -> H:\新建文件夹\x64\Release\facerecognizer_gui.exe

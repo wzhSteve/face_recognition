@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_LOCATION_LIB;QT_QUICK_LIB;QT_OPENGL_LIB;QT_UITOOLS_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_POSITIONING_LIB;QT_QML_LIB;QT_XMLPATTERNS_LIB;QT_NETWORK_LIB;QT_TESTLIB_LIB;QT_XML_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR;NDEBUG</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:\Qt\Qt592\5.9.2\msvc2017_64\include;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtLocation;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtQuick;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtOpenGL;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtUiTools;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtWidgets;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtGui;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtANGLE;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtPositioning;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtQml;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtXmlPatterns;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtNetwork;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtTest;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtXml;C:\Qt\Qt592\5.9.2\msvc2017_64\include\QtCore;C:\Qt\Qt592\5.9.2\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Location.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Quick.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5OpenGL.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5UiTools.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Widgets.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Gui.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Core.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Positioning.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Qml.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5XmlPatterns.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Network.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Test.lib;C:\Qt\Qt592\5.9.2\msvc2017_64\lib\Qt5Xml.lib</Qt_LIBS_>
+<Qt_LIBPATH_>C:\Qt\Qt592\5.9.2\msvc2017_64\lib;C:\utils\my_sql\my_sql\lib;C:\utils\postgresql\pgsql\lib</Qt_LIBPATH_>
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);x64\Release\moc;x64\Release\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >qt5_9</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;location;network;opengl;testlib;uitools;widgets;xml;xmlpatterns</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVars
+      >DEFINES=/-D(\w+)/$1/;INCLUDEPATH=INCPATH/-I(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBS=/(?:\/LIBPATH:(?:\x22[^\x22]+\x22|[^\s]+))|(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBPATH=LIBS/\/LIBPATH:(\x22[^\x22]+\x22|[^\s]+)/$1/</QtBkup_QtVars>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+    <QtBkup_QtBuildConfig
+      >release</QtBkup_QtBuildConfig>
+  </PropertyGroup>
+</Project>
